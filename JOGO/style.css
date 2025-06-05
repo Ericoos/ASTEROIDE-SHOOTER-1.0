@@ -1,0 +1,39 @@
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: rgb(7, 0, 68);
+  background: linear-gradient(0deg, rgb(5, 0, 54) 0%, rgba(0, 0, 85, 1) 50%);
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div {
+  justify-content: center;
+  align-items: center;
+}
+
+.items div {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+
+canvas {
+  border: 2px white solid;
+  border-radius: 20px;
+}
